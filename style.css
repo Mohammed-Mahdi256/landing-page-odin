@@ -2,6 +2,8 @@ body {
     background-color: #1F2937;
     padding: 0px;
     margin: 0px;
+    display: flex;
+    flex-direction: column;
 }
 
 /* header section */
@@ -128,4 +130,38 @@ ul {
     gap: 16px;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+/* quote section */
+
+.quote-section-background {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote-section {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    width: 60%;
+    padding-top: 58px;
+    padding-bottom: 58px;
+}
+
+.quote {
+    align-self: center;
+    font-size: 36px;
+    color: #1F2937;
+    margin: 0px;
+}
+
+.refrence {
+    align-self: flex-end;
+    font-weight: 800;
+    font-size: 24px;
+    color: #1F2937;
+    margin-bottom: 0px;
 }
